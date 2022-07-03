@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-backg;
+    @apply bg-vector bg-right-top bg-no-repeat;
+    -webkit-font-smoothing: antialiased;
+}
