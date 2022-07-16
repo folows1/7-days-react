@@ -10,7 +10,7 @@ export default function Card({ planta }: Props) {
 
     return (
         <div className="flex flex-row items-end w-[380px] h-[200px] shadow-xl bg-white hover:shadow-orange-300 hover:cursor-pointer">
-            <div className='min-w-[204px]'>
+            <div className='min-w-[204px] max-w-[204px]'>
                 <img src={produto} alt="Plantac" />
             </div>
             <div className='flex flex-col'>
