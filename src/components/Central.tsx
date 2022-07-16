@@ -3,7 +3,7 @@ import plantac from '../assets/plantac.png';
 export default function Central() {
     return (
 
-        <div className="flex flex-row max-w-[995px] h-[440px] shadow-md mx-auto mb-11">
+        <div className="flex flex-row max-w-[995px] h-[440px] shadow-md mx-auto mb-11 bg-white">
             <img src={plantac} alt="planta" />
             <div className="flex flex-col mt-[58px] ml-[32px]">
                 <p className='text-2xl text-orange-200 opacity-60 pb-3'>Como conseguir</p>

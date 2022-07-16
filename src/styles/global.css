@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 body {
-    @apply bg-backg;
-    @apply bg-vector bg-right-top bg-no-repeat;
+    @apply bg-[url(../assets/bg.png),_url(../assets/Vector.png)]
+    bg-[position:center,_right_top]
+    bg-[length:cover,_auto]
+    bg-no-repeat;
     -webkit-font-smoothing: antialiased;
 }
